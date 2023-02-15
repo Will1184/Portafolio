@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Proyecto Creado Por Brandon Gomez -->
+  <!-- Github: Will184 -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="icons.css">             
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="shortcut icon" href="img/portafolio.png" type="image/x-icon">
+    <title>Briefcase</title>
+</head>
+<body>
+  <!-- Navegacion y presentacion -->
+    <header class="static-sm-top"> 
+      <div>
+        <h1>BRANDON GOMEZ </h1>
+        <p>Developer</p>    
+      </div>   
+  <!-- links ancla hacia los diferentes puntos de la pagina -->
+        <nav class="header-links" >            
+            <a href="#" class="btn btn-primary">Home</a>
+            <a href="#projects-logos" class="btn btn-primary">Projects</a>
+            <a href="#contacts" class="btn btn-primary">Contact</a>       
+        </nav>
+    </header>
+    <!-- seccion de  Acerca de mi -->
+    <section>        
+            <article class="row align-items-center info"> 
+              <div class="col-12 col-lg-4 foto">        
+                <img src="img/foto.jpg" class="rounded-4 img-fluid myphoto" alt="fotoPerfil">                              
+               </div>            
+               <div class="col-12 col-lg-7 info">
+                <p>Soy Brandon Gomez, soy de El Salvador. Estudiante de ingeniería en sistemas informáticos. Quiero convertirme en Ingeniero y me gusta mucho desarrollar en el lenguaje java.
+                  Me apasiona el futbol, la musica rock, juego videojuegos. Me gusta investigar lo que no se para poder tener una mejor vision de mis opiniones y mis acciones ya sea en el ambito academico y laboral asi como tambien en mi vida personal</p>
+               </div>                     
+            </article>
+            <!--Barra de progreso  -->
+            <div class="info-progress">
+              <p class="label">HTML</p>
+              <div class="progress">
+                  <div class="progress-bar" style="width: 30%">30% </div>
+              </div>
+              <p class="label">CSS</p>
+              <div class="progress">
+                  <div class="progress-bar" style="width: 40%">40%</div>
+              </div>
+              <p class="label">JS</p>
+              <div class="progress">
+                  <div class="progress-bar" style="width: 10%">10% </div>
+              </div>
+              <p class="label">Java</p>
+              <div class="progress">
+                  <div class="progress-bar" style="width: 25%">25% </div>
+              </div>
+              <p class="label">C#</p>
+              <div class="progress">
+                  <div class="progress-bar" style="width: 20%">20% </div>
+              </div>
+              <p class="label">Sql</p>
+              <div class="progress">
+                  <div class="progress-bar" style="width: 20%">20% </div>
+              </div>
+              <p class="label">English</p>
+              <div class="progress">
+                  <div class="progress-bar" style="width: 20%">20% </div>
+              </div>              
+            </div>                                                     
+    </section>
+    <!-- Seccion de proyectos -->
+    <section>     
+      <!-- tarjetas enlace de mis proyectos -->
+      <h1 id="projects-logos">PROJECTS</h1>  
+        <article class="row align-items-center projects" >            
+            <a href="#java" class="card card-logo" style="width: 13.3rem;">
+                <img src="img/java.png" class="card-img-top" alt="java">                
+            </a>                          
+            <a href="#csharp" class="card card-logo" style="width: 13.3rem;">
+                <img src="img/csharp.png" class="card-img-top" alt="csharp">                
+            </a>
+            <a href="#frontend" class="card card-logo" style="width: 23.9rem;">
+                <img src="img/frontend.png" class="card-img-top" alt="frontend">                
+            </a>
+            <a href="#android" class="card card-logo" style="width: 15rem;">
+                <img src="img/Android.png" class="card-img-top" alt="android">                
+            </a>      
+        </article>
+        <!-- tarjetas enlace de mis proyectos en java -->
+        <h1 id="java">JAVA</h1>         
+        <article class="row align-items-center projects-java" >                    
+            <a href="https://github.com/Will1184/Inicio-Java/tree/master/src" target="_blank" class="card card-links" style="width: 18rem;">
+              <img src="img/Inicio-Java.jpg" class="card-img-top" alt="javainicio">
+              <div class="card-body">
+                <h5 class="card-title">Java-Inicio</h5>
+                <p class="card-text">Repositorio de mis ejercicios que hice para introducirme en el lenguaje Java</p>               
+              </div>
+            </a>
+            <a href="https://github.com/Will1184/CRUD-BRANDON-GOMEZ/tree/master/src/crud"  target="_blank" class="card card-links" style="width: 18rem;">
+              <img src="img/Crud.jpg" class="card-img-top" alt="crud">
+              <div class="card-body">
+                <h5 class="card-title">Crud </h5>
+                <p class="card-text">Crea, lee, modifica y elimina datos de un array introducidos de manera manual por terminal</p>              
+              </div>
+            </a>
+            <a href="https://github.com/Will1184/Crud-WebApp-Java" target="_blank" class="card card-links" style="width: 16.5rem;">
+              <img src="img/CrudWeb.jpg" class="card-img-top" alt="crudwebapp">
+              <div class="card-body">
+                <h5 class="card-title">Crud Web-App</h5>
+                <p class="card-text">Crea, lee, modifica y elimina datos de una base de datos con gestor "Mysql",hecho con jsp, servlets, html,js,css,jquery</p>               
+              </div>
+            </a>
+        </article>
+      <!-- tarjetas enlace de mis proyectos en c# -->
+        <h1 id="csharp">C#</h1>
+        <article class="row align-items-center projects-csharp">  
+          <a href="https://github.com/Will1184/Recolec-de-datos-para-albergue-perros" target="_blank" class="card card-links" style="width: 18rem;">
+            <img src="img/Inicio-Java.jpg" class="card-img-top" alt="albergueperros">
+            <div class="card-body">
+              <h5 class="card-title">Recoleccion de datos para albergue para perros</h5>
+              <p class="card-text">Permite almacenar la informacion de los caninos. Hecho en windows form</p>              
+            </div>
+          </a>
+          <a href="https://github.com/Will1184/Lanzamiento-de-dados" target="_blank" class="card card-links" style="width: 18rem;">
+            <img src="img/Inicio-Java.jpg" class="card-img-top" alt="dados">
+            <div class="card-body">
+              <h5 class="card-title">Lanzamiento de dados</h5>
+              <p class="card-text">Atraves de la funcion ramdom permite que tres dados tengan valor entre uno y seis. Hecho en windows form sin animacion de dados</p>               
+            </div>
+          </a>          
+            <a href="https://github.com/Will1184/Indice-de-masa-corporal" target="_blank" class="card card-links" style="width: 18rem;">
+              <img src="img/Inicio-Java.jpg" class="card-img-top" alt="indicemasacorporal">
+              <div class="card-body">
+                <h5 class="card-title">Indice de masa corporal</h5>
+                <p class="card-text">Ingresando su peso se conoce la asociacion entre su altura y su peso. Hecho con windows form</p>               
+              </div>
+            </a>
+            <a href="https://github.com/Will1184/Archivo-de-excel-con-extensin.csv" target="_blank" class="card card-links" style="width: 18rem;">
+              <img src="img/Inicio-Java.jpg" class="card-img-top" alt="archivoscsv">
+              <div class="card-body">
+                <h5 class="card-title"> Crear archivos de excel</h5>
+                <p class="card-text">Crea archivos con extension csv para guardar datos de manera manual por terminal</p>                
+              </div>
+            </a>
+            
+        </article>
+        <!-- tarjetas enlace de mis proyectos para frontend-->
+        <h1 id="frontend">FRONTEND</h1>          
+        <article class="row align-items-center projects-frontend" >           
+            <a href="https://will1184.github.io/Admin-Pacientes-BrandonGomez/" target="_blank" class="card card-links" style="width: 18rem;">
+              <img src="img/Administracioncitas.jpg" class="card-img-top" alt="citas">
+              <div class="card-body">
+                <h5 class="card-title">Administracion Citas</h5>
+                <p class="card-text">Proyecto que almacena citas en la memoria de navegador. Hecho con react</p>               
+              </div>
+            </a>
+            <a href="https://will1184.github.io/Formulario_LocalStorage/"  target="_blank" class="card card-links" style="width: 21rem;">
+              <img src="img/Formulario_local.jpg" class="card-img-top" alt="localform">
+              <div class="card-body">
+                <h5 class="card-title">Formulario LocalStorage</h5>
+                <p class="card-text">Formulario creado solo en html y Javascript que guarda los datos en la memoria del navegador</p>                
+              </div>
+            </a>
+            <a href="https://will1184.github.io/Cv-BrandonGomez/" target="_blank" class="card card-links" style="width: 20.5rem;">
+              <img src="img/cv.jpg" class="card-img-top" alt="Cv-BrandonGomez">
+              <div class="card-body">
+                <h5 class="card-title">Curriculum</h5>
+                <p class="card-text">Curriculum con mis datos hecho con Html, Css y Javascript </p>              
+              </div>
+            </a>    
+            <a href="https://will1184.github.io/Clock-Digital/" target="_blank" class="card card-links" style="width: 21.2rem;">
+              <img src="img/RelojDigital.jpg" class="card-img-top" alt="RelojDigital">
+              <div class="card-body">
+                <h5 class="card-title">Reloj Digital</h5>
+                <p class="card-text">Muestra la hora hecho con Html, Css y Javascript </p>              
+              </div>
+            </a>                   
+        </article>
+         <!-- tarjetas enlace de mis proyectos para android-->
+        <h1 id="android">ANDROID</h1>
+        <article class="row align-items-center projects-android">            
+            <a href="https://github.com/Will1184/Login_FireBase/blob/master/app-release%5B1%5D.apk" target="_blank" class="card card-links" style="width: 18rem;">
+              <img src="img/firebase.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Login-FireBase</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>               
+              </div>
+            </a>
+
+            <a href="#" target="_blank" class="card card-links" style="width: 27.5rem;">
+              <img src="img/kotlin.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Navigation-Kotlin</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>                
+              </div>
+            </a>            
+        </article>       
+    </section>
+    <!--  Contacto -->
+    <footer >      
+            <div class="container">
+                <!-- Redes Sociales -->
+                <h1 id="contacts"> CONTACTS</h1>
+                <div class="row redes-sociales justify-content-center">                  
+                  <div class="col-auto">
+                        <a href="https://github.com/Will1184"  target="_blank" class="icono icon-github github" ></a>  
+                        <a href="https://www.instagram.com/brandon11_gomez/" target="_blank" class="icono icon-instagram instagram" ></a>                                        
+                        <a href="#" target="_blank" class="icono icon-google google" ></a>  
+                    </div>                      
+                </div>
+                <p class="derechosR">Derechos reservados 2023</p>                 
+            </div>
+    </footer>
+        <script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,146 @@
+html{
+    scroll-behavior: smooth;
+}
+body{width: auto;overflow-x: hidden;background: linear-gradient(193deg, rgb(111, 57, 168) 31%, rgb(128, 59, 180) 46%, rgba(110,121,169,1) 63%, rgba(58,125,150,1) 80%, rgba(51,133,110,1) 94%);}
+h1{color: whitesmoke;}
+header{    
+    background: linear-gradient(153deg, rgb(205, 207, 221) 29%, rgb(171, 161, 175) 80%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+header >div {width:600px;
+    display: flex;
+    flex-direction: column;
+}
+
+header >div >h1{
+    color: rgb(128, 8, 143) ;
+    font-weight: 700;    
+    margin: 0px;
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 400px;}
+header > div > p{
+    width:200px;
+    margin: 0px 20px;
+    margin-bottom: 15px;
+    color: rgb(111, 57, 168) ;
+    font-weight: 700;}
+.header-links{padding-right: 10px;}
+a{margin: 40px 10px 0px 0px;}
+
+article> .info{
+    transition: all .3s ease;
+    margin-top: 60px;   
+    margin-bottom: 60px;   
+    color: whitesmoke;
+    font-size: 1.2em;    
+    text-align: justify;
+}
+.info-progress{
+    max-width: 600px;    
+    width: 450px;
+   margin: auto;   
+}
+.info-progress .label{
+	font-size: 18px;
+	font-weight: 600;
+	color: whitesmoke;
+	margin-bottom: 10px;
+}
+ .info-progress .progress{background: rgb(205, 207, 221);border-radius: 3px;margin-bottom: 15px;	}
+ .info-progress .progress-bar{
+	height: 25px;
+    font-size: 1.3em;
+	background: rgb(219, 122, 238);
+	line-height: 25px;
+	text-align: left;   
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+.myphoto{
+    box-shadow: 4px 5px 10px 1px  rgb(72, 33, 114);
+}
+.foto{
+    transition: all .3s ease;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+.foto >p{
+    font-size: 1.7em;
+    position: relative;
+    padding-top: 10px;
+    padding-left: 50px;
+    color: whitesmoke;   
+}
+
+.projects{margin-top: 100px;padding-left: 180px;margin-bottom: 150px;margin-right: 0px;}
+#projects-logos {    
+  display: flex;
+  justify-content: center;       
+  margin-top: 100px;
+  text-align: center;
+}
+#java,#csharp,#frontend,#android {    
+    display: flex;
+    justify-content: center;     
+    text-align: center;
+    font-size: 1.5em;
+}
+.card-logo{transition: all 0.3s ease;opacity: .8;}
+
+.card-logo:hover{
+    transition: all 0.2s ease;
+    flex-grow: 0.22;
+    opacity: 1;
+    filter: saturate(195%);
+}
+
+.projects-java,.projects-csharp,.projects-frontend,.projects-android{margin-top: 30px;margin-left: 120px;margin-bottom: 90px;}
+
+#contacts{
+    display: flex;
+    justify-content: center;       
+    margin-top: 100px;
+    text-align: center;
+}
+.container .derechosR{
+    width: 190px;
+    margin: auto;
+    color: whitesmoke;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.card-links{
+    cursor: pointer;
+    text-decoration: none;
+    color: #242525;
+    margin: 0;
+}
+.redes-sociales {padding:40px 0;margin-bottom: 10px;}
+
+.redes-sociales .icono {
+	width: 100px;
+	height: 100px;
+	font-size: 40px;
+	line-height: 100px;
+	color: #fff;
+	text-align: center;
+	background: #cbcbcb;
+	display: inline-block;
+	margin: 0px 20px;
+	text-decoration: none;
+	border-radius: 100px;
+	transition: all .3s ease;
+}
+.redes-sociales .google {background: #cf2b2b;}
+.redes-sociales .instagram {background: linear-gradient(45DEG, #405DE6,
+    #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);}
+.redes-sociales .github {background: #242525;}
+.redes-sociales .github:hover {background: #353636;}
+.redes-sociales .instagram:hover {background: linear-gradient(45DEG, #334bc2,
+    #4e48c9, #7833a7, #a12d6f, #d12d64, #e01818)}
+.redes-sociales .google:hover {background: #fa3232;}
