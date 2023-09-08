@@ -11,9 +11,9 @@ const mostrarBtnCv = document.getElementById('btn-cv');
 const mostrarBtnSpringUniversidad = document.getElementById('btn-spring-universidad');
 const mostrarBtnSpringCrud = document.getElementById('btn-login-crud-spring');
 const mostrarBtnReactCrud = document.getElementById('btn-login-crud-react');
-const mostrarBtnAdminPacientesReact = document.getElementById('btn-login-crud-java');
-const mostrarBtnJavaCrud = document.getElementById('btn-login-firebase-android');
-const mostrarBtnLoginFirebase = document.getElementById('btn-admin-pacientes-react');
+const mostrarBtnAdminPacientesReact = document.getElementById('btn-admin-pacientes-react');
+const mostrarBtnJavaCrud = document.getElementById('btn-login-crud-java');
+const mostrarBtnLoginFirebase = document.getElementById('btn-login-firebase-android');
 
 document.addEventListener('DOMContentLoaded', () => {
   const footer = document.getElementById('mi-footer');  
