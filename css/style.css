@@ -248,7 +248,7 @@ footer{
 }
 
 
-@media only screen and (max-width: 1440px){
+@media only screen and (min-width: 1440px){
     body{
         width: 1440;        
         height: auto;
@@ -319,7 +319,7 @@ footer{
    
 }
 
-@media only screen and (max-width: 1342px){
+@media only screen and (max-width: 1341px){
     body{
         width: auto;        
         height: auto;
@@ -396,7 +396,7 @@ footer{
         height: auto;
     }
     .container{
-        width: 900px;
+        width: auto;
         height: auto;     
         margin: 20px 10px 0 25px;                 
     }
@@ -415,7 +415,7 @@ footer{
         display: none;
     }
     header{
-        width: 800px; 
+        width: auto; 
         margin: 0 10px 50px 0;   
         margin-bottom: 50px;
     }
@@ -424,7 +424,7 @@ footer{
         padding: 0 30px 0 40px;
     }
     .info-project{
-       width: 600px;       
+       width: auto;       
     }
     .info-project::after{
         height: 350px;
@@ -468,7 +468,7 @@ footer{
         height: auto;
     }
     .container{
-        width: 600px;
+        width: auto;
         height: auto;
         margin: 20px ;        
     }
@@ -491,7 +491,7 @@ footer{
         transform: translate(-120px,950px);      
     }
     header{
-        width: 500px ;    
+        width: auto ;    
         margin: 0 20px 20px 0;    
     }
     main{
@@ -542,7 +542,7 @@ footer{
         width: 500px;
     }
     .container{
-        width: 500px;
+        width: auto;
         height: auto;
         margin: 10px ;        
     }
@@ -561,7 +561,7 @@ footer{
         display: none;
     }
     header{
-        width: 400px;    
+        width: auto;    
         margin: 0 ;    
     }
     main{
@@ -612,7 +612,7 @@ footer{
         width: 300px;
     }
     .container{
-        width: 300px;
+        width: auto;
         height: auto;
         margin: 10px ;        
     }
@@ -631,7 +631,7 @@ footer{
         display: none;
     }
     header{
-        width: 200px;    
+        width: auto;    
         margin: 0 ;    
     }
     main{
