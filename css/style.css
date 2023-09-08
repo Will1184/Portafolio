@@ -539,7 +539,7 @@ footer{
 
 @media only screen and (max-width: 500px){
     body{
-        width: 500px;
+        width: 100%;
     }
     .container{
         width: auto;
@@ -561,7 +561,7 @@ footer{
         display: none;
     }
     header{
-        width: auto;    
+        width: 200px;    
         margin: 0 ;    
     }
     main{
@@ -570,7 +570,7 @@ footer{
         padding: 0;
     }
     .info-project{
-       width: auto;  
+       width: 300px;  
        height: auto;  
        margin-bottom: 40px; 
     }
@@ -579,6 +579,7 @@ footer{
         font-size: 2.4em;        
     }
     .info-details{
+        width: auto;
         margin-top: 20px;
         font-size: 1.1em;
     }
