@@ -249,85 +249,22 @@ footer{
 
 
 @media only screen and (min-width: 1440px){
-    body{
-        width: 1440;        
-        height: auto;
-    }
-    .container{
-        width: auto;
-        height: auto;     
-        margin: 20px 10px 0 15px;                 
-    }
-    .container::before,
-    .container::after{
-        width: 300px;
-        height: 300px;
-    }
-    .container::before{
-        border-top-left-radius: 30px;
-        border-top-right-radius: 100px;
-        border-bottom-left-radius: 100px;                
-        transform: translate(0px,5px);            
-    }
+    
     .container::after{    
-        display: none;
-        border-bottom-right-radius:20px;
-        border-top-right-radius: 20px;
-        border-bottom-left-radius: 20px;              
+        display: none;    
     }
-    header{
-        width: 1300px;    
-    }
-    main{
-        width: auto;        
-        flex-direction: row;          
-        padding: 0 30px 0 50px;
-    }
-    .info-project{
-       width: auto;  
-    }
-    .info-project h1{
-        width: 400px;
-        font-size: 2.5em;        
-    }
-    .info-details{
-        width: auto;
-        margin-top: 20px;
-        font-size: 1.4em;
-    }
-    .projects{
-        width: auto;
-        height: auto;
-        margin: 0 0 0 3%  ;
-    }
-    .projects-list-items{
-        height: auto;
-        width: auto;    
-    }
-     .projects-list:before{
-        transform: translate(0px,30px);
-    }
-    .projects-list-ul{   
-        height: auto;
-        display: flex;
-        flex-direction: column; 
-
-    }
-    .projects-list{               
-        font-size: 1.3em;
-    }
-   
+    
 }
 
 @media only screen and (max-width: 1341px){
     body{
-        width: auto;        
+        width: 100%;        
         height: auto;
     }
     .container{
         width: auto;
         height: auto;     
-        margin: 20px 10px 0 15px;                 
+        margin: 20px 10px 0 35px;                 
     }
     .container::before,
     .container::after{
@@ -338,7 +275,7 @@ footer{
         border-top-left-radius: 30px;
         border-top-right-radius: 100px;
         border-bottom-left-radius: 100px;                
-        transform: translate(0px,5px);            
+        transform: translate(15px,5px);            
     }
     .container::after{    
         display: none;
@@ -389,10 +326,9 @@ footer{
     }
    
 }
-
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 900px){
     body{
-        width: 1000px;        
+        width: 100%;        
         height: auto;
     }
     .container{
@@ -416,14 +352,14 @@ footer{
     }
     header{
         width: auto; 
-        margin: 0 10px 50px 0;   
-        margin-bottom: 50px;
+        margin: 0 10px 50px 0;           
     }
     main{
-        width: auto;                         
-        padding: 0 30px 0 40px;
+        width: auto;                
+        flex-direction: row;         
+        padding: 0 40px 0 40px;
     }
-    .info-project{
+    .info-project{        
        width: auto;       
     }
     .info-project::after{
@@ -440,7 +376,7 @@ footer{
     }
     .projects{           
         width: auto;        
-        margin:0 0 0 100px;
+        margin:0 0 0 50px;
     }
     .projects-list-items{
         height: auto;
@@ -448,7 +384,78 @@ footer{
         margin: 30px 0 0 0  ;
     }
      .projects-list:before{
-        transform: translate(0px,30px);
+        transform: translate(0px,40px);
+    }
+    .projects-list-ul{           
+        height: auto;
+        display: flex;
+        flex-direction: column; 
+    }
+    .projects-list{               
+        font-size: 1.2em;
+    }
+   
+}
+
+
+@media only screen and (max-width: 800px){
+    body{
+        width: 100%;        
+        height: auto;
+    }
+    .container{
+        width: auto;
+        height: auto;     
+        margin: 20px 10px 0 25px;                 
+    }
+    .container::before,
+    .container::after{
+        width: 300px;
+        height: 300px;
+    }
+    .container::before{
+        border-top-left-radius: 30px;
+        border-top-right-radius: 100px;
+        border-bottom-left-radius: 100px;                
+        transform: translate(5px,5px);            
+    }
+    .container::after{    
+        display: none;
+    }
+    header{
+        width: auto; 
+        margin: 0 10px 50px 0;           
+    }
+    main{
+        width: auto;                         
+        padding: 0 20px 0 20px;
+    }
+    .info-project{        
+       width: auto;       
+    }
+    .info-project::after{
+        height: 350px;
+    }
+    .info-project h1{
+        width: 400px;
+        font-size: 2.4em;        
+    }
+    .info-details{
+        width: auto;
+        margin-top: 20px;
+        font-size: 1.1em;
+    }
+    .projects{           
+        width: auto;        
+        margin:0 0 0 50px;
+    }
+    .projects-list-items{
+        height: auto;
+        width: auto;    
+        margin: 30px 0 0 0  ;
+    }
+     .projects-list:before{
+        transform: translate(0px,40px);
     }
     .projects-list-ul{           
         height: auto;
@@ -464,7 +471,7 @@ footer{
 
 @media only screen and (max-width: 700px){
     body{
-        width: 700px;
+        width: 100%;
         height: auto;
     }
     .container{
@@ -504,11 +511,15 @@ footer{
        height: auto;  
        margin-bottom: 40px; 
     }
+    .info-project::after{
+        height: 350px;
+    }
     .info-project h1{
         width: auto;
         font-size: 2.4em;        
     }
     .info-details{
+        width: auto;
         margin-top: 20px;
         font-size: 1.1em;
     }
@@ -532,6 +543,9 @@ footer{
     }
     .projects-list{               
         font-size: 1.15em;
+    }
+    .projects-list:before{
+        transform: translate(0px,30px);
     }
    
 }
@@ -561,8 +575,8 @@ footer{
         display: none;
     }
     header{
-        width: 200px;    
-        margin: 0 ;    
+        width: auto;    
+        margin: 0 20px 0 10px ;    
     }
     main{
         width: auto;        
@@ -605,6 +619,9 @@ footer{
     .projects-list{               
         font-size: 1.2em;
     }
+    .projects-list:before{
+        transform: translate(0px,32px);
+    }
 
     
 }
@@ -633,7 +650,7 @@ footer{
     }
     header{
         width: auto;    
-        margin: 0 ;    
+        margin: 0 20px 0 0 ;    
     }
     main{
         width: auto;        
@@ -644,6 +661,9 @@ footer{
        width: auto;  
        height: auto;  
        margin-bottom: 40px; 
+    }
+    .info-project::after{
+        height: 350px;
     }
     .info-project h1{
         width: auto;
@@ -674,5 +694,8 @@ footer{
     }
     .projects-list{               
         font-size: 1.2em;
+    }
+    .projects-list:before{
+        transform: translate(0px,40px);
     }
 }
