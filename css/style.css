@@ -51,7 +51,7 @@ body{
     transform: translate(-20%,55%);    
 }
 header{    
-    margin:0 0 60px 0 ;
+    margin:0 0 50px 0 ;
     background-color: var(--colorBackground);    
 }
 .icons{
@@ -92,7 +92,7 @@ main{
     background: var(--colorBorder);    
     border-radius: 10px;
     content: "";
-    height: 300px;
+    height: 260px;
     left: 0;
     top: 0;
     transform: translate(-20px,65px);
@@ -108,7 +108,7 @@ main{
 .info-details{
     color: var(--colorText1);
     margin-top: 40px;
-    font-size: 1.24em;
+    font-size: 1.1em;
 }
 .info-tecnologies{
     color: var(--colorText2);
@@ -248,16 +248,16 @@ footer{
 }
 
 
-@media only screen and (min-width: 1350px){
-    
+@media only screen and (min-width: 1360px){
+        
     .container::after{    
-        display: none;    
+        display: none;            
     }
     .projects{
         width: auto;
         height: auto;
         margin: 0 0 0 150px  ;
-    }
+    }    
     
 }
 
@@ -271,10 +271,9 @@ footer{
     }
     .container::after{
         display: none;
-    }
+    }    
     .info-details{
-        width: 450px;
-        height: 150px;
+        width: 650px;        
     }
 }
 @media only screen and (max-width: 900px){
