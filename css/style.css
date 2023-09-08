@@ -248,83 +248,34 @@ footer{
 }
 
 
-@media only screen and (min-width: 1440px){
+@media only screen and (min-width: 1350px){
     
     .container::after{    
         display: none;    
     }
-    
-}
-
-@media only screen and (max-width: 1341px){
-    body{
-        width: 100%;        
-        height: auto;
-    }
-    .container{
-        width: auto;
-        height: auto;     
-        margin: 20px 10px 0 35px;                 
-    }
-    .container::before,
-    .container::after{
-        width: 300px;
-        height: 300px;
-    }
-    .container::before{
-        border-top-left-radius: 30px;
-        border-top-right-radius: 100px;
-        border-bottom-left-radius: 100px;                
-        transform: translate(15px,5px);            
-    }
-    .container::after{    
-        display: none;
-        border-bottom-right-radius:20px;
-        border-top-right-radius: 20px;
-        border-bottom-left-radius: 20px;              
-    }
-    header{
-        width: auto;    
-    }
-    main{
-        width: auto;        
-        flex-direction: row;          
-        padding: 0 20px 0 10px;
-    }
-    .info-project{
-       width: auto;  
-    }
-    .info-project h1{
-        width: 400px;
-        font-size: 2.4em;        
-    }
-    .info-details{
-        width: auto;
-        margin-top: 20px;
-        font-size: 1.1em;
-    }
     .projects{
         width: auto;
         height: auto;
-        margin: 0 0 0 3%  ;
+        margin: 0 0 0 150px  ;
     }
-    .projects-list-items{
-        height: auto;
-        width: auto;    
-    }
-     .projects-list:before{
-        transform: translate(0px,30px);
-    }
-    .projects-list-ul{   
-        height: auto;
-        display: flex;
-        flex-direction: column; 
+    
+}
 
+@media only screen and (max-width: 1130px){
+    
+    .container{        
+        margin-left: 50px;
     }
-    .projects-list{               
-        font-size: 1.15em;
+    .container::before{
+        transform: translate(18px,0);
     }
-   
+    .container::after{
+        display: none;
+    }
+    .info-details{
+        width: 450px;
+        height: 150px;
+    }
 }
 @media only screen and (max-width: 900px){
     body{
@@ -376,7 +327,7 @@ footer{
     }
     .projects{           
         width: auto;        
-        margin:0 0 0 50px;
+        margin:0 0 0 60px;
     }
     .projects-list-items{
         height: auto;
@@ -384,7 +335,7 @@ footer{
         margin: 30px 0 0 0  ;
     }
      .projects-list:before{
-        transform: translate(0px,40px);
+        transform: translate(0px,30px);
     }
     .projects-list-ul{           
         height: auto;
@@ -469,7 +420,7 @@ footer{
 }
 
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 753px){
     body{
         width: 100%;
         height: auto;
